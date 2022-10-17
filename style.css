@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 65px;
+    border-bottom: 1px solid #d3d6da;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger-button{
+
+}
+.logo{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    height: 65px;
+}
