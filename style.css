@@ -50,7 +50,34 @@
 }
 .wordle div div{
     margin: 2.5px;
-    width: 49px;
-    height: 49px;
+    width: 45px;
+    height: 45px;
     border: 2px solid #d3d6da;
+}
+.keyboard{
+    margin-top: 10px;
+}
+
+.keyboard div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.keyboard div div{
+    margin: 2px;
+    width: 43px;
+    height: 58px;
+    background-color: #d3d6da;
+    border-radius: 4px;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.enter{
+    width: 68px !important;
+}
+.back{
+    width: 68px !important;
 }
